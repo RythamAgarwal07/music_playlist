@@ -1,6 +1,6 @@
-# 🎵 Music Recommendation & Playlist Management System (C++)
+#  Music Recommendation & Playlist Management System (C++)
 
-## 📌 Overview
+##  Overview
 
 This is a console-based music system built in C++ that allows users to register, login, manage playlists, play songs, and receive intelligent music recommendations.
 
@@ -10,36 +10,36 @@ User data is stored using file handling (`players.txt`) for persistence.
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 👤 User Management
+###  User Management
 - User registration and login system
 - Preference selection (3 favorite genres)
 - Persistent user storage using file handling
 
-### 🎧 Music System
+###  Music System
 - View available songs
 - Play songs and earn XP
 - Surprise random song feature
 
-### 📂 Playlist System
+###  Playlist System
 - Create playlists (limited slots per user)
 - Add songs to playlists
 - View saved playlists with song details
 
-### 🤖 Recommendation Engine
+###  Recommendation Engine
 - Greedy algorithm-based recommendation
 - Prioritizes:
   - Song popularity
   - User genre preferences
 
-### 🌐 Graph-Based Exploration
+###  Graph-Based Exploration
 - **BFS (Breadth First Search)**:
   - Explore related songs (same genre/artist connections)
 - **DFS (Depth First Search)**:
   - Deep traversal of related songs
 
-### 🏆 Gamification System
+###  Gamification System
 - XP points system
 - Achievements such as:
   - First Play
@@ -52,7 +52,7 @@ User data is stored using file handling (`players.txt`) for persistence.
 
 ---
 
-## 🧠 Algorithms Used
+##  Algorithms Used
 
 - Greedy Algorithm → Recommendation system
 - BFS → Queue-based song exploration
